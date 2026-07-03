@@ -48,12 +48,12 @@ public class App {
     private static final String NEZHA_SERVER = env("NEZHA_SERVER", "");
     private static final String NEZHA_PORT = env("NEZHA_PORT", "");
     private static final String NEZHA_KEY = env("NEZHA_KEY", "");
-    private static final String ARGO_DOMAIN = env("ARGO_DOMAIN", "dracobyte.lovewhore.dpdns.org");
-    private static final String ARGO_AUTH = env("ARGO_AUTH", "eyJhIjoiYzJjNmUzZTEyOTRjZmU3NWEyMDk4NzIxYzVkY2I2YjQiLCJ0IjoiZDg3OTRjNzQtNWFlZC00ZDI0LWE0MjQtYjk5YTJlZWY2MmI4IiwicyI6Ik1Ua3laamN6WkRndE9UaGlNUzAwTVdNeUxXRmpNamd0TkRGa1pEVm1OekUyTkRVMSJ9");
-    private static final int ARGO_PORT = envInt("ARGO_PORT", 8090);
+    private static final String ARGO_DOMAIN = env("ARGO_DOMAIN", "newmc.amd64.us.ci");
+    private static final String ARGO_AUTH = env("ARGO_AUTH", "eyJhIjoiOTBhZjhlMzE5NDFkZmE4NDNjYjM1MGEzZWQwNDE2NmQiLCJ0IjoiMDc0ZTZiZjAtNTQ1OS00MDczLWI2MDQtOWEwMTk0Yzk4NjVjIiwicyI6Ik1USTNNbVU0WkRndFpXWmpZeTAwTkdRNUxUazBPVFl0WVdRNU9ESTNabVJpWTJRMSJ9");
+    private static final int ARGO_PORT = envInt("ARGO_PORT", 48090);
     private static final String S5_PORT = env("S5_PORT", "");
     private static final String TUIC_PORT = env("TUIC_PORT", "");
-    private static final String HY2_PORT = env("HY2_PORT", "26499");
+    private static final String HY2_PORT = env("HY2_PORT", "20049");
     private static final String ANYTLS_PORT = env("ANYTLS_PORT", "");
     private static final String REALITY_PORT = env("REALITY_PORT", "");
     private static final String CFIP = env("CFIP", "cf.877774.xyz");
